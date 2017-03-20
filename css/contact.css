@@ -1,0 +1,229 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	background-color: #f5f7fa;
+}
+header {
+	background-image: url(../img/header.png);
+	background-repeat: repeat-x;
+	background-position: top center;
+	min-height: 550px;
+	position: relative;
+}
+.top_logo img {
+	height: 50px;
+	margin-top: 40px;
+}
+.top_logo h1 {
+	text-transform: uppercase;
+	font-family: "RobotoMedium", sans-serif;
+	font-size: 45px;
+	color: #fff;
+	position: absolute;
+	display: inline;
+	margin-top: 40px;
+	margin-left: 10px;
+}
+.top_logo h1 span {
+	color: #130e27;
+} 
+.top_menu{
+	margin-top: 65px;
+}
+.top_menu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.top_menu li {
+	display: inline;
+	padding: 4px 14px;
+	border-radius: 10px;
+}
+.top_menu li a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 21px;
+	text-align: center;
+}
+.top_menu li:hover {
+	background-color: #130e27;
+}
+.top_left_side {
+	float: left;
+}
+.top_left_side h2 span {
+	color: #130e27;
+}
+.top_left_side h2 {
+	margin-top: 120px;
+	margin-left: 80px;
+	color: #fff;
+	font-family: "Raleway-SemiBold", sans-serif;
+	font-size: 50px;
+	line-height: 50px;
+	text-transform: uppercase;
+}
+.top_left_side p{
+	color: #ffffff;
+	margin-left: 80px;
+	margin-top: 10px;
+	font-size: 20px;
+}
+.btn_red {
+	text-align: center;
+	margin-left: 300px;
+	margin-top: 10px;
+	width: 100px;
+	padding: 10px;
+	background-color: #c62314;
+	border: none;
+	border-radius: 5px;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-family: "Raleway-SemiBold";
+}
+.btn_red:hover {
+	background-color: #C62300;
+	text-decoration: underline;
+}
+.top_right_side h2 {
+	text-transform: uppercase;
+	font-family: "Raleway-SemiBold", sans-serif;
+	font-size: 65px;
+	color: #fff;
+	margin-top: 60px;
+	text-align: center;
+	text-shadow: 0px 3px 0px #b2a98f,
+	0px 14px 10px rgba(0,0,0,0.15),
+	0px 24px 2px rgba(0,0,0,0.1),
+	0px 34px 30px rgba(0,0,0,0.1); 
+}
+.top_right_side h2 span {
+	color: #130e27;
+} 
+.top_right_side img {
+	margin-top: 10px;
+	margin-left: 130px;
+}
+.about_comp h2 {
+	margin-top: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 40px;
+	color: #130e27;
+	font-family: "RobotoLight";
+}
+.about_comp p {
+	text-align: center;
+	font-size: 18px;
+	color: #130e27;
+	font-family: "RobotoLight";
+	margin-bottom: 70px;
+}
+.about_comp img {
+	min-width: 400px;
+	float: left;
+	box-shadow: 0 0 50px rgba(0,0,0,0.5);
+	margin: 50px 0 30px 150px;
+}
+.special_p {
+	margin-top: 60px;
+}
+.team_photo img {
+	text-align: center;	
+	margin: 80px 80px 0 80px;
+	width: 250px;
+}
+.team_photo {
+	margin-left: 70px;
+	margin-bottom: 50px;
+}
+
+.blue_line2 {
+	height: 170px;
+	background-color: #130e27;
+}
+.blue_line2 h3 {
+	font-size: 18px;
+	color: #fff;
+	float: left;
+	margin-left: 35px;
+	margin-top: 75px;
+	font-family: "Raleway-Regular";
+}
+.blue_line2 h3 span {
+	color: #c62314;
+}
+.blue_line2 h2 {
+	float: right;	
+	margin-top: 55px;
+	font-size: 45px;
+	color: #c62314;
+	text-transform: lowercase;
+	font-family: "Raleway-Regular";
+}
+
+.blue_line2 a {
+	color: #fff;
+}
+.social{
+    margin-top: 111px;
+    font-size: 30px;
+    margin-left: 31px;
+}
+.social a {
+	margin-right: 20px;
+}
+
+.eg-side-lined-1 {
+  display: block;
+  overflow: hidden;
+  text-align: center;
+}
+.eg-side-lined-1:before, .eg-side-lined-1:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 50%;
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+.eg-side-lined-1:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+.eg-side-lined-1:after {
+  left: 0.5em;
+  margin-right: -50%;
+}

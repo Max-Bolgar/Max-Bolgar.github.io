@@ -10,7 +10,9 @@ $(document).ready(function() {
 	//Документация: http://fancybox.net/howto
 	//<a class="fancybox"><img src="image.jpg" /></a>
 	//<a class="fancybox" data-fancybox-group="group"><img src="image.jpg" /></a>
-	$(".fancybox").fancybox();
+	$(".fancybox").fancybox({
+
+	});
 
 	//Навигация по Landing Page
 	//$(".top_mnu") - это верхняя панель со ссылками.
@@ -72,14 +74,6 @@ var owl = $("#my_owl");
     lazyload: true,
 
 	});
-	owl.on("mousewheel", ".owl-wrapper", function (e) {
-		if (e.deltaY > 0) {
-			owl.trigger("owl.prev");
-		} else {
-			owl.trigger("owl.next");
-		}
-		e.preventDefault();
-	});
 	$(".next_button").click(function(){
 		owl.trigger("owl.next");
 	});
@@ -91,7 +85,7 @@ var owl = $("#my_owl");
 	//Документация:
 	//http://api.jquery.com/scrolltop/
 	//http://api.jquery.com/animate/
-	$("#top").click(function () {
+	$(".arr_up").click(function () {
 		$("body, html").animate({
 			scrollTop: 0
 		}, 800);
